@@ -15,6 +15,7 @@ public class ApiClient
         client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
         client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         client.DefaultRequestHeaders.UserAgent.ParseAdd("https://example-app.com/");
+    
     }
 
     public async Task<Dictionary<string, object>> ApiRequest(string url, Dictionary<string, string> post = null)
