@@ -1,0 +1,6 @@
+@LearnOAuth2_Vy_HostAddress = http://localhost:5269
+
+GET {{LearnOAuth2_Vy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
